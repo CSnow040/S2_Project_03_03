@@ -15,6 +15,11 @@
 
 
 /* Structural Styles */
+
+/* The structural styles which include html,body,the to most important headings,etc.
+are all used to make a base to start and build from icluding the main font types 
+ the web pages basic color coordination */
+
 html {
     background-color: rgb(151, 151, 151);
 }
@@ -41,6 +46,10 @@ footer {
     padding-bottom: 1px;
 }
 /* Body Header Styles */
+
+/* The body header is used within this CSS style sheet too specify a font type and 
+color for the web pages design making an all around improvment */
+
 body>header {
     background-color: rgb(97, 97, 211);
 }
@@ -57,6 +66,10 @@ body>header>h1 span {
 }
 
 /* Navigation Styles */
+
+/* The navigation styles make many differences when it comes to clickable links and 
+designing how a list looks and making an improvment to how the user views the site */
+
 nav>li>a#mainLinks {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -74,6 +87,11 @@ nav>ul>li:hover {
 }
 
 /* Outline Styles */
+
+/* The outline styles do pretty much the same thing the navigational styles do by making 
+the clickable links responsive to the user and making it easier to 
+navigate the site or navigating to a different website provided by the web page */
+
 nav#outline>li>ol>li>a {
     color: rgb(51, 51, 51);
     font-size: 0.8em;
@@ -83,24 +101,61 @@ nav#outline h1 {
     text-align: center;
 }
 
-nav#outline>ol {
+nav#outline>ol>li {
     line-height: 2em;
     margin: 0px 5px 0px 5px;
     list-style-type: upper-roman;
 }
 
-nav#outline>ol {
+nav#outline ol {
     list-style-type: upper-alpha;
+}
+
+nav#outline ol :visited {
+    color: rgb(101, 101, 101);
+}
+
+nav#outline ol :hover {
+    color: rgb(97, 97, 211);
+    text-decoration-line: underline;
 }
 /* Section Styles */
 
+/* The design within a section or sections of a website are used to over all fit the text 
+correctly in the spot selected for that section specifically to change its font, size, or color */
 
+section {
+    background-color: rgb(220, 220, 220);
+}
 
+section header h1 {
+    font-size: 2.2em;
+    padding-left: 10px;
+}
 
 /* Article Styles */
 
+/* In these article styles all it basically does is change the header to a specific font 
+as well as make a little improvment to the look of the web page with a small detail */
 
+article h2 {
+    font-size: 1.4em;
+}
 
+article p :first-of-type:first-letter {
+    font-size: 2em;
+}
 
 /* Aside Styles */
 
+/* The aside is designed to fix the balance of the text through text sizing and text 
+alignment to fit in smoothlywith the website */
+
+aside {
+    font-size: 0.9em;
+}
+
+aside h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
